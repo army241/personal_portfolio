@@ -11,9 +11,9 @@
   <div class="nav-container">
     <span class="logo">Projects</span>
     <ul class="nav-links">
-      <li><a href="porfolio.html">Home</a></li>
-      <li><a href="cv.html">CV</a></li>
-      <li><a href="projects.html">Projects</a></li>
+      <li><a href="my_website.html">Home</a></li>
+      <li><a href="My_CV.html">CV</a></li>
+      <li><a href="project.html">Projects</a></li>
       <li><a href="Certificates.html">Certificates</a></li>
     </ul>
   </div>
@@ -21,14 +21,71 @@
 
 <main class="page-content">
   <h1>Projects</h1>
-  <p>FreeCodeCamp projects</p>
-  <a href="https://github.com/army241/FreeCodeCamp_workshops_and_projects/tree/main/Projects/Survey_Form">
-    <div class="projects">
+ <p class="project-type">FreeCodeCamp projects</p>
+ <hr>
+
+<a href="https://github.com/army241/FreeCodeCamp_workshops_and_projects/tree/main/Projects/Survey_Form" 
+   target="_blank" class="project-box-link">
+  <div class="project-box">
     <h3>Survey Form</h3>
-    <img src="data:image/png;base64,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" >
+    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg" alt="FreeCodeCamp Survey Form Preview">
   </div>
-  </a>
-  
+</a>
+
+<div class="all-cpp-projects">
+  <p class="project-type">C++ Projects</p>
+  <hr>
+
+  <div class="project-list">
+
+    <a href="https://github.com/army241/SerawitShimelis_Portfolio/tree/main/cpp_code/student_registraton_form" 
+       target="_blank" class="project-box-link">
+      <div class="project-box cpp-project">
+        <h3>Student Registration</h3>
+ 
+      </div>
+    </a>
+
+    <a href="https://github.com/army241/SerawitShimelis_Portfolio/tree/main/cpp_code/password_generator" 
+       target="_blank" class="project-box-link">
+      <div class="project-box cpp-project">
+        <h3>Password Generator</h3>
+        
+      </div>
+    </a>
+
+    <a href="https://github.com/army241/SerawitShimelis_Portfolio/tree/main/cpp_code/fibonnaci_with_recursion" 
+       target="_blank" class="project-box-link">
+      <div class="project-box cpp-project">
+        <h3>Fibonacci Finder</h3>
+
+      </div>
+    </a>
+
+    <!-- Add more projects here, and they will automatically align side by side -->
+
+  </div>
+</div>
+
+<h2 class="project-type">LeetCode Solutions</h2>
+<hr>
+<label>Problem One: Palindrome (<a class="solution" target="_blank" href="https://github.com/army241/SerawitShimelis_Portfolio/blob/main/my_leetcode_solution/Palindrome_Number.py">See Solution</a>) </label>
+<br>
+<label>Problem Two: Two_Sum (<a class="solution" target="_blank" href="https://github.com/army241/SerawitShimelis_Portfolio/blob/main/my_leetcode_solution/Two_Sum.py">See Solution</a>) </label>
+
+<br>
+<br>
+<h2 class="project-type">Python Projects</h2> 
+<hr>
+</div>
+    </a>
+
+    <a href="https://github.com/army241/SerawitShimelis_Portfolio/blob/main/python_projects/simple_calculator_code/simple%20calculator.py" 
+       target="_blank" class="project-box-link">
+      <div class="project-box cpp-project">
+        <h3>Simple Calculator</h3>
+
+      </div>
 
 </main>
 
