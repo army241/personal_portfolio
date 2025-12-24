@@ -114,7 +114,7 @@ h2 {
 
 /* PROJECTS */
 .project-card {
-  background: gray;
+  background: rgb(231, 226, 226);
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -124,8 +124,8 @@ h2 {
 .project-card:hover{
   box-shadow: 3px 3px 3px rgb(132, 116, 116);
   color: #555;
-  background-color: #555;
-  transform: skew(-10deg);
+  background-color: rgb(212, 200, 200);
+  transform: skew(-4deg);
 }
 
 /* PAGES */
